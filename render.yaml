@@ -2,7 +2,7 @@ services:
   - type: web
     name: medjaouri-travel
     runtime: static
-    buildCommand: ""
+    buildCommand: "echo Static site"
     staticPublishPath: .
     routes:
       - type: rewrite
